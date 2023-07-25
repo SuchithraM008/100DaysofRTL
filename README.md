@@ -1,2 +1,2 @@
 # 100DaysofRTL
-I started this to challenge to learn system verilog.
+1. I started this to challenge to learn system verilog.
