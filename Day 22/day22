@@ -1,1 +1,24 @@
+//first program using classes in system verilog
+//created a class that has a function that displays Hello World.
 
+class day22; 
+  function void print_hello();
+    $display("Hello, World!\n");
+  endfunction
+  
+  
+endclass
+
+module day22_tb();
+
+//created a handle for the class
+  day22 DAY22;
+
+  initial begin
+//created object for the class
+    DAY22 = new();
+    DAY22.print_hello();
+    $finish();
+  end
+
+endmodule
