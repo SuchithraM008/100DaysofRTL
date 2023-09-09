@@ -1,4 +1,4 @@
-1.'fork' and 'join' are used to create and synchronize parallel threads of execution.
+   1.'fork' and 'join' are used to create and synchronize parallel threads of execution.
 
 2. The fork keyword is used to start multiple threads of execution concurrently.
    
