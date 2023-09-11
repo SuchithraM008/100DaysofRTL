@@ -1,1 +1,1 @@
-
+1. Fork and join_none: The fork key is used to run parallel threads and the join_none keyword will execute the main thread before executing the child threads it means it does not wait for the child threads to complete.
